@@ -9,3 +9,13 @@ export default defineConfig({
     plugins: [tailwindcss()]
   }
 });
+
+module.export = {
+  theme: {
+    extend:{
+      fontFamily: {
+        code: ['Segoe UI', 'monospace'],
+      }, 
+    },
+  },
+};
